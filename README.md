@@ -7,12 +7,15 @@ A RESTful backend API for managing operations at a Dosa restaurant, built using 
 
 The project includes the following files:
 
-- db.sqlite – SQLite database file
-- init_db.py – Initializes the database schema (customers, items, orders)
-- main.py – FastAPI application with all API endpoints
-- load_from_json.py – Loads customer, item, and order data from example_orders.json
-- example_orders.json – Sample dataset of historical orders
-- README.md – Project documentation
+- db.sqlite
+- customers.json
+- items.json
+- init_db.py
+- main.py
+- load_from_json.py
+- example_orders.json
+- README.md
+  
 
 ## API Overview
 
